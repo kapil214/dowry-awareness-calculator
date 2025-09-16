@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dowry Calculator | A Social Message</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script href="script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="calculator-card">
+            <header>
+                <h1>DowrAI</h1>
+                <h2>India's First Dowry Calculator</h2>
+            </header>
+            
+            <p class="subtitle">Car? House? Gold? What are you worth in today's marriage market?</p>
+
+            <form id="dowry-form">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="age">Age</label>
+                        <select id="age" name="age">
+                            <option value="" disabled selected>Select Age</option>
+                            <option value="22-25">22-25</option>
+                            <option value="26-30">26-30</option>
+                            <option value="31-35">31-35</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="profession">Profession</label>
+                        <select id="profession" name="profession">
+                            <option value="" disabled selected>Select Profession</option>
+                            <option value="doctor">Doctor</option>
+                            <option value="engineer">Engineer</option>
+                            <option value="ias">IAS Officer</option>
+                            <option value="businessman">Businessman</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="salary">Monthly Salary</label>
+                        <select id="salary" name="salary">
+                            <option value="" disabled selected>Select Salary</option>
+                            <option value="<1lakh">Under ₹1 Lakh</option>
+                            <option value="1-2lakh">₹1 Lakh - ₹2 Lakhs</option>
+                            <option value=">2lakh">Above ₹2 Lakhs</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="education">Education</label>
+                        <select id="education" name="education">
+                            <option value="" disabled selected>Select Education</option>
+                            <option value="btech">B.Tech / B.E.</option>
+                            <option value="mtech">M.Tech / M.S.</option>
+                            <option value="mba">MBA</option>
+                            <option value="phd">PhD</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="residence">Residence</label>
+                        <select id="residence" name="residence">
+                            <option value="" disabled selected>Select Residence</option>
+                            <option value="metro">Metro City</option>
+                            <option value="tier2">Tier-2 City</option>
+                            <option value="rural">Rural</option>
+                        </select>
+                    </div>
+                     <div class="form-group">
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option value="" disabled selected>Select Country</option>
+                            <option value="india">India</option>
+                            <option value="nri">NRI</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" id="calculate-btn">Calculate Now</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="message-overlay">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3>The Real "Worth" of Dowry</h3>
+            <div class="stat-highlight">
+                <p>According to National Crime Records Bureau (NCRB) data, India reported 6,589 dowry-related deaths in 2022.</p>
+                <span>That's one woman killed every 80 minutes.</span>
+            </div>
+            <p class="final-message">Your worth is not a price tag. Let's calculate human value, not material demands.</p>
+            <strong class="hashtag">#StopDowry</strong>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
