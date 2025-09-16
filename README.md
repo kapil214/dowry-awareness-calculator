@@ -1,6 +1,6 @@
 # Dowry Awareness Calculator
 
-### 🔴 [**View the Live Project Here**](https://kapil214.github.io/dowry-awareness-calculator/)
+### 🔴 [**View the Live Project Here**](https://kapil214.github.io/dowry-awareness-calculator)
 
 > **Important Disclaimer:** This is a satirical social awareness project. It is designed to look like a "dowry calculator" to shock users and deliver a powerful message about the horrific reality of dowry-related violence and deaths in India. This project **condemns the illegal and immoral practice of dowry** in the strongest possible terms.
 
@@ -48,3 +48,4 @@ The goal is to subvert expectations and force a moment of reflection. By juxtapo
 The practice of giving or taking dowry is a criminal offense in India under the **Dowry Prohibition Act, 1961**. If you or someone you know is facing harassment or pressure for dowry, please seek help immediately.
 
 You can contact the **[National Commission for Women (NCW)](http://ncw.nic.in/)** or your local police.
+
